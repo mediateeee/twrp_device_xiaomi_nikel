@@ -15,6 +15,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from nikel device
 $(call inherit-product, device/xiaomi/nikel/device.mk)
 
+PRODUCT_COPY_FILES += device/xiaomi/nikel/prebuilt/kernel:kernel
+
 PRODUCT_DEVICE := nikel
 PRODUCT_NAME := omni_nikel
 PRODUCT_BRAND := Xiaomi

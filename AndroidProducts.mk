@@ -7,8 +7,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_nikel.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_nikel-user \
-    omni_nikel-userdebug \
-    omni_nikel-eng
